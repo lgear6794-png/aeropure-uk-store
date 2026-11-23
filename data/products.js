@@ -1,14 +1,14 @@
-// UK Top 5 Premium Air Purifiers Catalog
+// UK Top 5 Premium Air Purifiers Catalog - Unbranded & Generic Lineup
 const productsData = [
   {
-    id: "aurapure-pro-h14",
-    name: "AuraPure Pro™ H14 Medical-Grade Smart Air Purifier",
-    tagline: "Medical H14 HEPA 99.995% filtration with real-time Laser PM2.5 display (up to 85m²)",
-    price: 189.99,
-    originalPrice: 269.99,
+    id: "apex-air-450",
+    name: "ApexAir 450 Smart HEPA Air Purifier",
+    tagline: "High-performance H14 HEPA 99.995% filtration with real-time Laser PM2.5 display (up to 85m²)",
+    price: 180.20,
+    originalPrice: 250.40,
     rating: 4.95,
     reviewCount: 2340,
-    badge: "UK #1 Best Overall",
+    badge: "Top Pick for Whole Home",
     badgeColor: "bg-emerald-600 text-white",
     category: "Whole-Home & Living Room",
     image: "images/aurapure-pro.jpg",
@@ -26,35 +26,35 @@ const productsData = [
       "High-precision laser PM2.5 monitor with 4-colour air quality halo ring & digital readout",
       "Thick granular coconut-shell activated carbon filter neutralises damp smells, smoke & cooking odours",
       "Whisper-quiet Sleep Mode (21dB) with dimmable display for undisturbed nights",
-      "Smart WiFi App & Alexa / Google Assistant voice control with automated scheduling"
+      "Smart WiFi App control with automated scheduling and timer modes"
     ],
     ukSellingPoints: [
       "Critical for UK winter homes with sealed double glazing trapping condensation & mould spores",
-      "Asthma + Lung UK recommended filtration standard (Medical H14)",
-      "High ticket item with £137+ gross margin per sale on Google Shopping & Meta Ads"
+      "High-standard H14 filtration recommended for respiratory comfort",
+      "High-efficiency motor engineered for continuous low-cost daily operation"
     ],
     merchantInsights: {
       sourcingCost: "£52.00",
-      recommendedMSRP: "£189.99",
-      grossProfit: "£137.99 (72.6% margin)",
+      recommendedMSRP: "£180.20",
+      grossProfit: "£128.20 (71.1% margin)",
       shippingProfile: "DPD / Royal Mail Tracked 48 (~£5.95 / 5.2kg)",
       targetAudience: "Asthma/allergy sufferers, parents with young children, homeowners in damp UK Victorian houses",
-      primaryAdAngle: "'Waking up with a stuffy nose and seeing mould in window corners? This H14 purifier cleans an entire 3-bed home floor in 20 minutes.'"
+      primaryAdAngle: "'Waking up with a stuffy nose and seeing mould in window corners? This H14 purifier cleans an entire home floor in 20 minutes.'"
     },
     reviews: [
-      { author: "Dr. Rachel Thorne", location: "Cheadle, Greater Manchester", rating: 5, date: "3 days ago", comment: "As a GP living in a damp Victorian terrace in Manchester, the laser PM2.5 reader showed our air quality was poor. Within 30 minutes of running the AuraPure, PM2.5 dropped from 68 to 4. Our morning congestion has vanished." },
-      { author: "James M.", location: "Richmond, London", rating: 5, date: "1 week ago", comment: "Arrived in 3 days with Royal Mail Tracked. Incredibly quiet on auto mode and the app integration works seamlessly with Alexa." }
+      { author: "Dr. Rachel Thorne", location: "Cheadle, Greater Manchester", rating: 5, date: "3 days ago", comment: "Living in a damp Victorian terrace in Manchester, the laser PM2.5 reader showed our air quality was poor. Within 30 minutes of running the ApexAir, PM2.5 dropped from 68 to 4. Our morning congestion has vanished." },
+      { author: "James M.", location: "Richmond, London", rating: 5, date: "1 week ago", comment: "Arrived in 3 days with Royal Mail Tracked. Incredibly quiet on auto mode and the app integration works seamlessly." }
     ]
   },
   {
-    id: "thermabreathe-3in1",
-    name: "ThermaBreathe™ 3-in-1 HEPA Purifier, Ceramic Heater & Fan",
+    id: "thermo-flow-3in1",
+    name: "ThermoFlow 3-in-1 HEPA Ceramic Heater, Fan & Air Purifier",
     tagline: "The all-in-one year-round solution: 2000W instant heating, cooling breeze & H13 HEPA",
-    price: 219.99,
-    originalPrice: 329.99,
+    price: 220.40,
+    originalPrice: 310.30,
     rating: 4.9,
     reviewCount: 1680,
-    badge: "3-in-1 Year-Round Hero",
+    badge: "3-in-1 Year-Round Climate System",
     badgeColor: "bg-rose-600 text-white",
     category: "Multifunction & Heating",
     image: "images/thermabreathe-3in1.jpg",
@@ -75,17 +75,17 @@ const productsData = [
       "Sleek bladeless tower design with magnetic remote control docking on top"
     ],
     ukSellingPoints: [
-      "Direct rival to £600+ Dyson Hot+Cool HP07/HP09 at 1/3 of the price",
+      "High performance multi-function tower providing year-round utility",
       "High urgency during cold UK weather: combines heat with clean allergen-free air",
       "No seasonal obsolescence: heats in winter, cools in summer, purifies 365 days a year"
     ],
     merchantInsights: {
       sourcingCost: "£68.00",
-      recommendedMSRP: "£219.99",
-      grossProfit: "£151.99 (69.1% margin)",
+      recommendedMSRP: "£220.40",
+      grossProfit: "£152.40 (69.1% margin)",
       shippingProfile: "DPD Express Parcel (~£6.50 / 6.1kg)",
-      targetAudience: "UK Homeowners looking for Dyson alternatives, work-from-home pros, apartment dwellers",
-      primaryAdAngle: "'Why spend £650 on a Dyson Hot+Cool? This 3-in-1 HEPA purifier and ceramic tower heater does the exact same job for £219.'"
+      targetAudience: "UK Homeowners looking for space-saving appliances, work-from-home pros, apartment dwellers",
+      primaryAdAngle: "'Why buy separate heaters and purifiers? This 3-in-1 HEPA purifier and ceramic tower heater does the whole job.'"
     },
     reviews: [
       { author: "Mark Bellingham", location: "Solihull, West Midlands", rating: 5, date: "Yesterday", comment: "Literally the best appliance I've ever bought. It heated our conservatory in 5 minutes while filtering out our dog's dander. Completely silent and looks stunning." },
@@ -93,14 +93,14 @@ const productsData = [
     ]
   },
   {
-    id: "breathemax-tower-uvc",
-    name: "BreatheMax™ Tower HEPA & UV-C Sterilising Air Purifier",
+    id: "steril-tower-uvc",
+    name: "SterilTower 360 UV-C Sanitising Air Purifier",
     tagline: "Medical H13 HEPA with germicidal UV-C light destroying airborne viruses & bacteria",
-    price: 149.99,
-    originalPrice: 219.99,
+    price: 140.30,
+    originalPrice: 190.20,
     rating: 4.88,
     reviewCount: 1890,
-    badge: "Medical UV-C Sterilisation",
+    badge: "UV-C Sterilisation Chamber",
     badgeColor: "bg-indigo-600 text-white",
     category: "Tower & Sterilisation",
     image: "images/breathemax-tower.jpg",
@@ -114,7 +114,7 @@ const productsData = [
     powerUsage: "32W (Under 1p per hour)",
     deliveryDays: "3-4 Working Days",
     features: [
-      "Hospital-Grade UV-C sanitising chamber destroys DNA of airborne cold/flu viruses, bacteria & mould spores",
+      "Hospital-grade UV-C sanitising chamber destroys DNA of airborne cold/flu viruses, bacteria & mould spores",
       "3-stage cylindrical filter: Pre-filter mesh, Medical H13 HEPA & honeycomb activated carbon",
       "360-degree all-angle air intake draws polluted air from every corner of the room",
       "Auto Smart Sensor adjusts fan speed dynamically based on detected pollution levels",
@@ -127,11 +127,11 @@ const productsData = [
     ],
     merchantInsights: {
       sourcingCost: "£41.50",
-      recommendedMSRP: "£149.99",
-      grossProfit: "£108.49 (72.3% margin)",
+      recommendedMSRP: "£140.30",
+      grossProfit: "£98.80 (70.4% margin)",
       shippingProfile: "Royal Mail Tracked 48 (~£4.85 / 4.1kg)",
       targetAudience: "Health-conscious families, nursery/school parents, elderly, private clinics",
-      primaryAdAngle: "'Stop passing winter bugs and flu back and forth around your house. UV-C medical sterilisation kills 99.9% of airborne germs on contact.'"
+      primaryAdAngle: "'Stop passing winter bugs and flu back and forth around your house. UV-C sterilisation kills 99.9% of airborne germs on contact.'"
     },
     reviews: [
       { author: "Helen Richardson", location: "Harrogate, North Yorkshire", rating: 5, date: "5 days ago", comment: "Both my kids brought home heavy winter coughs. Kept this running in their rooms and the living area — for the first time ever, neither my husband nor I caught it. UV-C feature gives great peace of mind." },
@@ -139,14 +139,14 @@ const productsData = [
     ]
   },
   {
-    id: "purepet-master",
-    name: "PurePet Master™ Dual-Filter Pet Allergy & Odour Purifier",
+    id: "pet-shield-carbon",
+    name: "PetShield Dual-Filter Pet & Odour Air Purifier",
     tagline: "Engineered specifically for pet dander, shedding fur, wet dog odours & litter dust",
-    price: 119.99,
-    originalPrice: 179.99,
+    price: 120.20,
+    originalPrice: 160.40,
     rating: 4.92,
     reviewCount: 2950,
-    badge: "UK Pet Owner Choice",
+    badge: "Dual Activated Carbon Filter",
     badgeColor: "bg-amber-600 text-white",
     category: "Pet Allergies & Odour",
     image: "images/purepet-master.jpg",
@@ -173,8 +173,8 @@ const productsData = [
     ],
     merchantInsights: {
       sourcingCost: "£33.00",
-      recommendedMSRP: "£119.99",
-      grossProfit: "£86.99 (72.5% margin)",
+      recommendedMSRP: "£120.20",
+      grossProfit: "£87.20 (72.5% margin)",
       shippingProfile: "Royal Mail Tracked 48 (~£4.20 / 3.6kg)",
       targetAudience: "Dog & cat owners, allergic partners living with pets, multi-pet households",
       primaryAdAngle: "'Love your dog but hate the wet winter dog smell and constant fur in the air? This purifier wipes out pet dander and odours in 15 minutes.'"
@@ -185,14 +185,14 @@ const productsData = [
     ]
   },
   {
-    id: "aeroshield-compact",
-    name: "AeroShield Compact™ Bedroom & Desk HEPA Purifier",
+    id: "whisper-air-compact",
+    name: "WhisperAir Compact Bedside & Desk HEPA Purifier",
     tagline: "Ultra-quiet 20dB bedside purifier with ambient night light & aromatherapy aroma tray",
-    price: 59.99,
-    originalPrice: 89.99,
+    price: 60.40,
+    originalPrice: 80.30,
     rating: 4.86,
     reviewCount: 3410,
-    badge: "Whisper-Quiet 20dB",
+    badge: "Whisper-Quiet 20dB Night Mode",
     badgeColor: "bg-sky-600 text-white",
     category: "Bedroom & Desk",
     image: "images/aeroshield-compact.jpg",
@@ -213,14 +213,14 @@ const productsData = [
       "Compact footprint (only 18cm diameter) ideal for bedside tables, children's nurseries & home office desks"
     ],
     ukSellingPoints: [
-      "Perfect introductory impulse item under £60 for bedrooms, nurseries, and university halls",
+      "Perfect introductory impulse item for bedrooms, nurseries, and university halls",
       "High conversion as a second or third unit for multi-room UK households",
       "Extremely low shipping weight and under-£17 sourcing cost"
     ],
     merchantInsights: {
       sourcingCost: "£16.50",
-      recommendedMSRP: "£59.99",
-      grossProfit: "£43.49 (72.5% margin)",
+      recommendedMSRP: "£60.40",
+      grossProfit: "£43.90 (72.7% margin)",
       shippingProfile: "Royal Mail Tracked 48 (~£2.85 / 1.6kg)",
       targetAudience: "Light sleepers, night-time allergy sufferers, parents, WFH desk workers",
       primaryAdAngle: "'Waking up with dry throat, clogged sinuses, or sneezing in bed? Pop this 20dB silent purifier on your bedside table tonight.'"

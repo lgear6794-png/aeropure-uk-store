@@ -713,11 +713,11 @@ function showToast(message, type = 'info') {
 function startSocialProofTicker() {
   const dates = getDeliveryDateRange(3, 4);
   const locations = [
-    { city: 'Manchester', item: 'AuraPure Pro™ H14 Purifier', mins: '3' },
-    { city: 'London', item: 'ThermaBreathe™ 3-in-1 Heater & Purifier', mins: '7' },
-    { city: 'Edinburgh', item: 'PurePet Master™ Pet Allergy Purifier', mins: '11' },
-    { city: 'Bristol', item: 'BreatheMax™ Tower UV-C Purifier', mins: '2' },
-    { city: 'Birmingham', item: 'AeroShield Compact™ Bedroom Purifier', mins: '14' }
+    { city: 'Manchester', item: 'ApexAir 450 Smart Purifier', mins: '3' },
+    { city: 'London', item: 'ThermoFlow 3-in-1 Heater & Purifier', mins: '7' },
+    { city: 'Edinburgh', item: 'PetShield Dual-Filter Pet Purifier', mins: '11' },
+    { city: 'Bristol', item: 'SterilTower 360 UV-C Purifier', mins: '2' },
+    { city: 'Birmingham', item: 'WhisperAir Compact Bedside Purifier', mins: '14' }
   ];
 
   let index = 0;
@@ -765,7 +765,7 @@ function setupEventListeners() {
 
 // 1-Click Super Saver Bundle Adder
 function addBundleToCart() {
-  const bundleItems = ['aurapure-pro-h14', 'aeroshield-compact', 'purepet-master'];
+  const bundleItems = ['apex-air-450', 'whisper-air-compact', 'pet-shield-carbon'];
   bundleItems.forEach(id => {
     const p = productsData.find(item => item.id === id);
     if (p) {
@@ -823,25 +823,25 @@ function updateAirCalculator() {
 
   // Standard UK ceiling height is 2.4m
   const roomVolume = selectedRoomSize * 2.4; // m³
-  let modelName = "AuraPure Pro™ H14 (450 m³/h)";
+  let modelName = "ApexAir 450 Smart Purifier (450 m³/h)";
   let cadr = 450;
-  let productId = "aurapure-pro-h14";
+  let productId = "apex-air-450";
   let watts = 38;
 
   if (selectedRoomSize <= 20) {
-    modelName = "AeroShield Compact™ (180 m³/h)";
+    modelName = "WhisperAir Compact (180 m³/h)";
     cadr = 180;
-    productId = "aeroshield-compact";
+    productId = "whisper-air-compact";
     watts = 12;
   } else if (selectedRoomSize <= 50) {
-    modelName = "BreatheMax™ Tower UV-C (380 m³/h)";
+    modelName = "SterilTower 360 UV-C (380 m³/h)";
     cadr = 380;
-    productId = "breathemax-tower-uvc";
+    productId = "steril-tower-uvc";
     watts = 32;
   } else {
-    modelName = "AuraPure Pro™ H14 Medical (450 m³/h)";
+    modelName = "ApexAir 450 Smart Purifier (450 m³/h)";
     cadr = 450;
-    productId = "aurapure-pro-h14";
+    productId = "apex-air-450";
     watts = 38;
   }
 
@@ -895,4 +895,97 @@ function startCountdownTimer() {
       timerEl.textContent = 'Same-day cutoff reached';
     }
   }, 1000);
+}
+
+// Google Merchant Center & Store Legal Policy Modals
+function openPolicyModal(type) {
+  const modal = document.getElementById('policy-modal');
+  const container = document.getElementById('policy-modal-content');
+  if (!modal || !container) return;
+
+  let title = '';
+  let body = '';
+
+  if (type === 'privacy') {
+    title = 'Privacy Policy';
+    body = `
+      <p class="text-xs text-slate-500 mb-4">Last Updated: November 2026</p>
+      <div class="space-y-3 text-xs text-slate-700 leading-relaxed">
+        <p>AeroPure UK is committed to protecting your personal information. When you place an order on aeropur.shop, we collect your name, shipping address, email address, and phone number solely to process and deliver your order via Royal Mail Tracked or DPD.</p>
+        <p><strong>Payment Processing:</strong> We do not store full credit/debit card numbers. All payments are encrypted and securely processed via Stripe in compliance with PCI-DSS standards.</p>
+        <p><strong>Cookies & Analytics:</strong> We use essential session cookies for your shopping cart and anonymous analytics to improve user experience. We never sell your personal data to third parties.</p>
+        <p><strong>Your Rights:</strong> Under UK GDPR, you have the right to access, rectify, or request deletion of your personal data by contacting us at support@aeropur.shop.</p>
+      </div>
+    `;
+  } else if (type === 'terms') {
+    title = 'Terms of Service';
+    body = `
+      <p class="text-xs text-slate-500 mb-4">Effective Date: November 2026</p>
+      <div class="space-y-3 text-xs text-slate-700 leading-relaxed">
+        <p>By visiting aeropur.shop and purchasing products from AeroPure UK, you agree to be bound by the following terms and conditions.</p>
+        <p><strong>Pricing & Availability:</strong> All prices are displayed in British Pounds Sterling (GBP £) and include applicable taxes. We reserve the right to modify prices or discontinue items without notice.</p>
+        <p><strong>Product Representation:</strong> We make every effort to display accurate product specifications, CADR ratings, dimensions, and filter capabilities. All purifiers come with standard UK 3-pin fused plugs complying with BS 1363 safety standards.</p>
+        <p><strong>Governing Law:</strong> These terms are governed by and construed in accordance with the laws of England and Wales.</p>
+      </div>
+    `;
+  } else if (type === 'returns') {
+    title = '30-Day UK In-Home Trial & Refund Policy';
+    body = `
+      <div class="space-y-3 text-xs text-slate-700 leading-relaxed">
+        <div class="p-3 bg-emerald-50 border border-emerald-200 rounded-xl text-emerald-800 font-medium">
+          ✓ 30-Day Money Back Guarantee: Test your air purifier at home for 30 days. If you are not completely satisfied, return it for a full refund.
+        </div>
+        <h4 class="font-bold text-slate-900 text-sm mt-3">How to Return:</h4>
+        <ol class="list-decimal pl-5 space-y-1.5">
+          <li>Email our UK support team at <a href="mailto:support@aeropur.shop" class="text-blue-600 underline font-semibold">support@aeropur.shop</a> with your order number.</li>
+          <li>We will provide a prepaid Royal Mail return label and RMA tracking number.</li>
+          <li>Repackage the purifier in its original box with all accessories and power cables.</li>
+          <li>Drop off at any Royal Mail post office or schedule a free home collection.</li>
+        </ol>
+        <p><strong>Refund Timeline:</strong> Once inspected at our Midlands distribution facility, your refund is processed back to your original payment method within 2-4 working days.</p>
+      </div>
+    `;
+  } else if (type === 'shipping') {
+    title = 'UK 3-4 Working Days Shipping Policy';
+    body = `
+      <div class="space-y-3 text-xs text-slate-700 leading-relaxed">
+        <div class="p-3 bg-blue-50 border border-blue-200 rounded-xl text-blue-900 font-medium">
+          🚚 Free UK Tracked Delivery on all orders over £45. Orders under £45 are charged a flat £4.99 standard delivery fee.
+        </div>
+        <p><strong>Dispatch Time:</strong> Orders placed before 2:00 PM GMT Monday through Friday are processed and dispatched the same working day from our Midlands logistics hub.</p>
+        <p><strong>Delivery Timeframe:</strong> 3 to 4 working days throughout England, Scotland, Wales, and Northern Ireland via Royal Mail Tracked 48 or DPD Express.</p>
+        <p><strong>Tracking:</strong> You will receive an SMS and email notification with your tracking link as soon as your parcel is scanned into the courier network.</p>
+      </div>
+    `;
+  } else if (type === 'contact') {
+    title = 'Contact AeroPure UK Customer Support';
+    body = `
+      <div class="space-y-4 text-xs text-slate-700 leading-relaxed">
+        <p>Our dedicated customer care team is available Monday to Friday from 9:00 AM to 6:00 PM GMT.</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div class="p-4 bg-slate-50 border border-slate-200 rounded-2xl">
+            <span class="font-bold text-slate-900 block text-sm">Customer Support Email</span>
+            <a href="mailto:support@aeropur.shop" class="text-blue-600 font-medium mt-1 block">support@aeropur.shop</a>
+            <span class="text-slate-400 text-[11px] mt-1 block">Average response time: &lt; 2 hours</span>
+          </div>
+          <div class="p-4 bg-slate-50 border border-slate-200 rounded-2xl">
+            <span class="font-bold text-slate-900 block text-sm">Registered UK Address</span>
+            <p class="text-slate-600 mt-1">AeroPure UK Ltd<br>71-75 Shelton Street, Covent Garden<br>London, WC2H 9JQ, United Kingdom</p>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  container.innerHTML = `
+    <h3 class="text-xl font-extrabold text-slate-900 font-heading mb-2">${title}</h3>
+    ${body}
+  `;
+
+  modal.classList.remove('hidden');
+}
+
+function closePolicyModal() {
+  const modal = document.getElementById('policy-modal');
+  if (modal) modal.classList.add('hidden');
 }
