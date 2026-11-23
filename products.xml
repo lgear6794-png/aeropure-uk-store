@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+  <channel>
+    <title>AeroPure UK</title>
+    <link>https://aeropur.shop</link>
+    <description>Top 5 Premium Medical-Grade Air Purifiers for UK Homes</description>
+    
+    <!-- Product 1 -->
+    <item>
+      <g:id>APEX-AIR-450</g:id>
+      <g:title>ApexAir 450 Smart HEPA Air Purifier</g:title>
+      <g:description>High-performance H14 HEPA 99.995% filtration with real-time Laser PM2.5 display and smart WiFi app control. Cleans up to 85m² in 18 minutes.</g:description>
+      <g:link>https://aeropur.shop/#products-section</g:link>
+      <g:image_link>https://aeropur.shop/images/aurapure-pro.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>180.20 GBP</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>AeroPure UK</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>Home &amp; Garden &gt; Household Appliances &gt; Climate Control Appliances &gt; Air Purifiers</g:product_type>
+      <g:shipping>
+        <g:country>GB</g:country>
+        <g:service>Royal Mail Tracked 48</g:service>
+        <g:price>0.00 GBP</g:price>
+      </g:shipping>
+    </item>
+
+    <!-- Product 2 -->
+    <item>
+      <g:id>THERMO-FLOW-3IN1</g:id>
+      <g:title>ThermoFlow 3-in-1 HEPA Ceramic Heater, Fan &amp; Air Purifier</g:title>
+      <g:description>The all-in-one year-round solution: 2000W instant ceramic heating, cooling breeze and Medical H13 HEPA air purification with 80° oscillation.</g:description>
+      <g:link>https://aeropur.shop/#products-section</g:link>
+      <g:image_link>https://aeropur.shop/images/thermabreathe-3in1.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>220.40 GBP</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>AeroPure UK</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>Home &amp; Garden &gt; Household Appliances &gt; Climate Control Appliances &gt; Air Purifiers</g:product_type>
+      <g:shipping>
+        <g:country>GB</g:country>
+        <g:service>DPD Express Parcel</g:service>
+        <g:price>0.00 GBP</g:price>
+      </g:shipping>
+    </item>
+
+    <!-- Product 3 -->
+    <item>
+      <g:id>STERIL-TOWER-360</g:id>
+      <g:title>SterilTower 360 UV-C Sanitising Air Purifier</g:title>
+      <g:description>Medical H13 HEPA with germicidal UV-C light destroying airborne viruses and bacteria. Features 360-degree cylindrical air intake and auto smart sensor.</g:description>
+      <g:link>https://aeropur.shop/#products-section</g:link>
+      <g:image_link>https://aeropur.shop/images/breathemax-tower.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>140.30 GBP</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>AeroPure UK</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>Home &amp; Garden &gt; Household Appliances &gt; Climate Control Appliances &gt; Air Purifiers</g:product_type>
+      <g:shipping>
+        <g:country>GB</g:country>
+        <g:service>Royal Mail Tracked 48</g:service>
+        <g:price>0.00 GBP</g:price>
+      </g:shipping>
+    </item>
+
+    <!-- Product 4 -->
+    <item>
+      <g:id>PET-SHIELD-DUAL</g:id>
+      <g:title>PetShield Dual-Filter Pet &amp; Odour Air Purifier</g:title>
+      <g:description>Engineered specifically for pet dander, shedding fur, wet dog odours and cat litter dust with 450g high-grade activated carbon pellets and pet-safe child lock.</g:description>
+      <g:link>https://aeropur.shop/#products-section</g:link>
+      <g:image_link>https://aeropur.shop/images/purepet-master.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>120.20 GBP</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>AeroPure UK</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>Home &amp; Garden &gt; Household Appliances &gt; Climate Control Appliances &gt; Air Purifiers</g:product_type>
+      <g:shipping>
+        <g:country>GB</g:country>
+        <g:service>Royal Mail Tracked 48</g:service>
+        <g:price>0.00 GBP</g:price>
+      </g:shipping>
+    </item>
+
+    <!-- Product 5 -->
+    <item>
+      <g:id>WHISPER-AIR-COMPACT</g:id>
+      <g:title>WhisperAir Compact Bedside &amp; Desk HEPA Purifier</g:title>
+      <g:description>Ultra-quiet 20dB bedside air purifier with warm ambient night light and aromatherapy aroma sponge tray for bedrooms, nurseries and desks.</g:description>
+      <g:link>https://aeropur.shop/#products-section</g:link>
+      <g:image_link>https://aeropur.shop/images/aeroshield-compact.jpg</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>60.40 GBP</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>AeroPure UK</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>Home &amp; Garden &gt; Household Appliances &gt; Climate Control Appliances &gt; Air Purifiers</g:product_type>
+      <g:shipping>
+        <g:country>GB</g:country>
+        <g:service>Royal Mail Tracked 48</g:service>
+        <g:price>0.00 GBP</g:price>
+      </g:shipping>
+    </item>
+  </channel>
+</rss>
