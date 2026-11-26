@@ -1,233 +1,313 @@
-// UK Top 5 Premium Air Purifiers Catalog - Unbranded & Generic Lineup
+// AeroPure UK Product Catalogue — Curated Home, Tech, Kitchen & Garden Essentials
 const productsData = [
   {
-    id: "apex-air-450",
-    name: "ApexAir 450 Smart HEPA Air Purifier",
-    tagline: "High-performance H14 HEPA 99.995% filtration with real-time Laser PM2.5 display (up to 85m²)",
-    price: 180.20,
-    originalPrice: 250.40,
-    rating: 4.95,
-    reviewCount: 2340,
-    badge: "Top Pick for Whole Home",
-    badgeColor: "bg-emerald-600 text-white",
-    category: "Whole-Home & Living Room",
-    image: "images/aurapure-pro.jpg",
+    id: "storage-bed-160",
+    sku: "EK-3002",
+    name: "Double Storage Bed 160 x 200 cm with Hydraulic Lift",
+    tagline: "Upholstered 160 x 200 cm grey double bed with hydraulic lift-up slatted base and spacious storage.",
+    description: "This upholstered bed combines style with practical convenience. Beneath the hydraulic lift-up slatted base, you will find generous storage space for bedding and more.",
+    price: 279.99,
+    category: "Home & Furniture",
+    image: "images/storage-bed-160-1.jpg",
     gallery: [
-      "images/aurapure-pro.jpg",
-      "images/breathemax-tower.jpg",
-      "images/aeroshield-compact.jpg"
+      "images/storage-bed-160-1.jpg",
+      "images/storage-bed-160-2.jpg"
     ],
-    inStock: 11,
-    cadRate: "450 m³/h CADR (Cleans 85m² in 18 mins)",
-    powerUsage: "38W (Less than 1.2p per hour)",
-    deliveryDays: "3-4 Working Days",
+    badge: "Hydraulic Storage",
+    badgeColor: "bg-slate-800 text-white",
+    deliveryDays: "3–4 Working Days",
+    specs: [
+      { label: "Colour", value: "Grey" },
+      { label: "Dimensions", value: "160 x 200 cm" },
+      { label: "Storage Space", value: "Yes (under-bed compartment)" },
+      { label: "Slatted Base", value: "Included" },
+      { label: "Mattress", value: "Not included" },
+      { label: "Condition", value: "New" }
+    ],
     features: [
-      "True Medical H14 HEPA: Captures 99.995% of mould spores, viruses, dust & allergens down to 0.1 microns",
-      "High-precision laser PM2.5 monitor with 4-colour air quality halo ring & digital readout",
-      "Thick granular coconut-shell activated carbon filter neutralises damp smells, smoke & cooking odours",
-      "Whisper-quiet Sleep Mode (21dB) with dimmable display for undisturbed nights",
-      "Smart WiFi App control with automated scheduling and timer modes"
-    ],
-    ukSellingPoints: [
-      "Critical for UK winter homes with sealed double glazing trapping condensation & mould spores",
-      "High-standard H14 filtration recommended for respiratory comfort",
-      "High-efficiency motor engineered for continuous low-cost daily operation"
-    ],
-    merchantInsights: {
-      sourcingCost: "£52.00",
-      recommendedMSRP: "£180.20",
-      grossProfit: "£128.20 (71.1% margin)",
-      shippingProfile: "DPD / Royal Mail Tracked 48 (~£5.95 / 5.2kg)",
-      targetAudience: "Asthma/allergy sufferers, parents with young children, homeowners in damp UK Victorian houses",
-      primaryAdAngle: "'Waking up with a stuffy nose and seeing mould in window corners? This H14 purifier cleans an entire home floor in 20 minutes.'"
-    },
-    reviews: [
-      { author: "Dr. Rachel Thorne", location: "Cheadle, Greater Manchester", rating: 5, date: "3 days ago", comment: "Living in a damp Victorian terrace in Manchester, the laser PM2.5 reader showed our air quality was poor. Within 30 minutes of running the ApexAir, PM2.5 dropped from 68 to 4. Our morning congestion has vanished." },
-      { author: "James M.", location: "Richmond, London", rating: 5, date: "1 week ago", comment: "Arrived in 3 days with Royal Mail Tracked. Incredibly quiet on auto mode and the app integration works seamlessly." }
+      "Upholstered 160 x 200 cm double bed frame in grey",
+      "Hydraulic lift-up slatted base reveals spacious under-bed storage",
+      "Slatted base included (mattress not included)",
+      "Ideal for storing bedding and seasonal items neatly out of sight"
     ]
   },
   {
-    id: "thermo-flow-3in1",
-    name: "ThermoFlow 3-in-1 HEPA Ceramic Heater, Fan & Air Purifier",
-    tagline: "The all-in-one year-round solution: 2000W instant heating, cooling breeze & H13 HEPA",
-    price: 220.40,
-    originalPrice: 310.30,
-    rating: 4.9,
-    reviewCount: 1680,
-    badge: "3-in-1 Year-Round Climate System",
-    badgeColor: "bg-rose-600 text-white",
-    category: "Multifunction & Heating",
-    image: "images/thermabreathe-3in1.jpg",
+    id: "velvet-corner-sofa",
+    sku: "EK-3001",
+    name: "3-Seater Velvet Corner Sofa, Beige",
+    tagline: "Soft beige velvet 3-seater corner sofa with reversible left or right chaise longue and cushions.",
+    description: "A comfortable corner sofa with soft velvet upholstery and a sturdy wooden frame. The chaise longue can be positioned on either the left or right side. Scatter cushions included.",
+    price: 469.99,
+    category: "Home & Furniture",
+    image: "images/velvet-corner-sofa-1.jpg",
     gallery: [
-      "images/thermabreathe-3in1.jpg",
-      "images/aurapure-pro.jpg",
-      "images/purepet-master.jpg"
+      "images/velvet-corner-sofa-1.jpg",
+      "images/velvet-corner-sofa-2.jpg"
     ],
-    inStock: 7,
-    cadRate: "320 m³/h CADR (Covers up to 55m²)",
-    powerUsage: "40W (Purifier) / 2000W PTC (Ceramic Heat)",
-    deliveryDays: "3-4 Working Days",
+    badge: "Reversible Chaise",
+    badgeColor: "bg-amber-700 text-white",
+    deliveryDays: "3–4 Working Days",
+    specs: [
+      { label: "Colour", value: "Beige" },
+      { label: "Dimensions", value: "250 x 160 x 85 cm" },
+      { label: "Materials", value: "Velvet, wood" },
+      { label: "Seating Capacity", value: "3 seats" },
+      { label: "Assembly", value: "Simple" },
+      { label: "Condition", value: "New" }
+    ],
     features: [
-      "3-in-1 functionality: Medical H13 HEPA purification, fast ceramic winter heating & summer cooling airflow",
-      "Rapid 2000W PTC ceramic elements heat rooms in 3 seconds with precision digital thermostat (15°C–35°C)",
-      "Continuous air purification running independently or simultaneously with heat/cooling",
-      "80° wide-angle oscillation with tip-over safety auto-shutoff and cool-touch exterior (Child & pet safe)",
-      "Sleek bladeless tower design with magnetic remote control docking on top"
-    ],
-    ukSellingPoints: [
-      "High performance multi-function tower providing year-round utility",
-      "High urgency during cold UK weather: combines heat with clean allergen-free air",
-      "No seasonal obsolescence: heats in winter, cools in summer, purifies 365 days a year"
-    ],
-    merchantInsights: {
-      sourcingCost: "£68.00",
-      recommendedMSRP: "£220.40",
-      grossProfit: "£152.40 (69.1% margin)",
-      shippingProfile: "DPD Express Parcel (~£6.50 / 6.1kg)",
-      targetAudience: "UK Homeowners looking for space-saving appliances, work-from-home pros, apartment dwellers",
-      primaryAdAngle: "'Why buy separate heaters and purifiers? This 3-in-1 HEPA purifier and ceramic tower heater does the whole job.'"
-    },
-    reviews: [
-      { author: "Mark Bellingham", location: "Solihull, West Midlands", rating: 5, date: "Yesterday", comment: "Literally the best appliance I've ever bought. It heated our conservatory in 5 minutes while filtering out our dog's dander. Completely silent and looks stunning." },
-      { author: "Fiona G.", location: "Edinburgh, Scotland", rating: 5, date: "4 days ago", comment: "Scottish winters are brutally cold. This keeps our home office toasty warm without running the expensive gas boiler all day." }
+      "Soft beige velvet upholstery with a sturdy wooden frame",
+      "Reversible chaise longue can be fitted on the left or right",
+      "Generous 250 x 160 x 85 cm footprint with 3-seater capacity",
+      "Includes matching scatter cushions and simple assembly"
     ]
   },
   {
-    id: "steril-tower-uvc",
-    name: "SterilTower 360 UV-C Sanitising Air Purifier",
-    tagline: "Medical H13 HEPA with germicidal UV-C light destroying airborne viruses & bacteria",
-    price: 140.30,
-    originalPrice: 190.20,
-    rating: 4.88,
-    reviewCount: 1890,
-    badge: "UV-C Sterilisation Chamber",
+    id: "anc-wireless-earbuds",
+    sku: "EK-1001",
+    name: "Wireless Earbuds with Active Noise Cancellation (ANC)",
+    tagline: "Bluetooth 5.3 earbuds with Active Noise Cancellation, transparency mode, and 30h USB-C case.",
+    description: "Enjoy clear sound without distractions. These wireless earbuds feature Active Noise Cancellation (ANC), a transparency mode, and Bluetooth 5.3 for a stable connection. With the compact charging case you get up to 30 hours of listening time. Splash-resistant (IPX4) with intuitive touch controls.",
+    price: 34.99,
+    category: "Tech & Gadgets",
+    image: "images/anc-wireless-earbuds-1.jpg",
+    gallery: [
+      "images/anc-wireless-earbuds-1.jpg",
+      "images/anc-wireless-earbuds-2.jpg"
+    ],
+    badge: "30h Playtime • ANC",
     badgeColor: "bg-indigo-600 text-white",
-    category: "Tower & Sterilisation",
-    image: "images/breathemax-tower.jpg",
-    gallery: [
-      "images/breathemax-tower.jpg",
-      "images/aurapure-pro.jpg",
-      "images/thermabreathe-3in1.jpg"
+    deliveryDays: "3–4 Working Days",
+    specs: [
+      { label: "Colour", value: "Black" },
+      { label: "Bluetooth", value: "5.3" },
+      { label: "Playtime", value: "Up to 30 hours (incl. case)" },
+      { label: "Water Resistance", value: "IPX4 splash-resistant" },
+      { label: "Connection", value: "USB-C" },
+      { label: "Weight", value: "45 g" },
+      { label: "Condition", value: "New" }
     ],
-    inStock: 14,
-    cadRate: "380 m³/h CADR (Covers up to 65m²)",
-    powerUsage: "32W (Under 1p per hour)",
-    deliveryDays: "3-4 Working Days",
     features: [
-      "Hospital-grade UV-C sanitising chamber destroys DNA of airborne cold/flu viruses, bacteria & mould spores",
-      "3-stage cylindrical filter: Pre-filter mesh, Medical H13 HEPA & honeycomb activated carbon",
-      "360-degree all-angle air intake draws polluted air from every corner of the room",
-      "Auto Smart Sensor adjusts fan speed dynamically based on detected pollution levels",
-      "Filter replacement indicator alerts when filter needs refreshing (approx. 8-12 months)"
-    ],
-    ukSellingPoints: [
-      "Top seller during UK winter cold/flu season and school illness spikes",
-      "Loved by dental practices, clinics, and families with vulnerable elderly members",
-      "High perceived health security value with laboratory-tested 99.9% germ eradication"
-    ],
-    merchantInsights: {
-      sourcingCost: "£41.50",
-      recommendedMSRP: "£140.30",
-      grossProfit: "£98.80 (70.4% margin)",
-      shippingProfile: "Royal Mail Tracked 48 (~£4.85 / 4.1kg)",
-      targetAudience: "Health-conscious families, nursery/school parents, elderly, private clinics",
-      primaryAdAngle: "'Stop passing winter bugs and flu back and forth around your house. UV-C sterilisation kills 99.9% of airborne germs on contact.'"
-    },
-    reviews: [
-      { author: "Helen Richardson", location: "Harrogate, North Yorkshire", rating: 5, date: "5 days ago", comment: "Both my kids brought home heavy winter coughs. Kept this running in their rooms and the living area — for the first time ever, neither my husband nor I caught it. UV-C feature gives great peace of mind." },
-      { author: "Liam B.", location: "Bristol", rating: 5, date: "2 weeks ago", comment: "Tower profile fits neatly beside the TV unit without taking up floor space. Air smells noticeably crisp and clean." }
+      "Active Noise Cancellation (ANC) plus transparency mode",
+      "Bluetooth 5.3 wireless connectivity with touch controls",
+      "Up to 30 hours total playtime with the compact USB-C charging case",
+      "Lightweight 45 g design with IPX4 splash resistance"
     ]
   },
   {
-    id: "pet-shield-carbon",
-    name: "PetShield Dual-Filter Pet & Odour Air Purifier",
-    tagline: "Engineered specifically for pet dander, shedding fur, wet dog odours & litter dust",
-    price: 120.20,
-    originalPrice: 160.40,
-    rating: 4.92,
-    reviewCount: 2950,
-    badge: "Dual Activated Carbon Filter",
-    badgeColor: "bg-amber-600 text-white",
-    category: "Pet Allergies & Odour",
-    image: "images/purepet-master.jpg",
+    id: "gps-smartwatch",
+    sku: "EK-1002",
+    name: "GPS Smartwatch with Heart Rate Monitor",
+    tagline: "Lightweight 1.4\" AMOLED smartwatch with GPS, heart rate monitor, 100+ sports modes, and 10-day battery.",
+    description: "Track your health and daily activity with this lightweight smartwatch. The bright AMOLED display shows notifications, heart rate, sleep tracking, and over 100 sports modes. Water-resistant to 5 ATM with up to 10 days of battery life.",
+    price: 46.99,
+    category: "Tech & Gadgets",
+    image: "images/gps-smartwatch-1.jpg",
     gallery: [
-      "images/purepet-master.jpg",
-      "images/aurapure-pro.jpg",
-      "images/aeroshield-compact.jpg"
+      "images/gps-smartwatch-1.jpg",
+      "images/gps-smartwatch-2.jpg"
     ],
-    inStock: 19,
-    cadRate: "350 m³/h CADR (Covers up to 50m²)",
-    powerUsage: "28W (Under 0.9p per hour)",
-    deliveryDays: "3-4 Working Days",
-    features: [
-      "Wide-aperture pet hair intake grill prevents clogs from flying dog/cat fur",
-      "Extra-thick 450g high-grade activated carbon pellets eliminate wet dog smell, cat litter ammonia & dander",
-      "Medical H13 True HEPA traps microscopic pet allergens causing sneezing, watery eyes & itchy skin",
-      "Pet-safe Child Lock prevents playful paws or tails from changing settings or turning off",
-      "Removable and washable pre-filter mesh extends primary HEPA filter lifespan"
-    ],
-    ukSellingPoints: [
-      "The UK has over 13 million dogs and 12 million cats (60%+ of households own a pet)",
-      "High emotional attachment: pet owners eagerly spend to stop family allergy complaints",
-      "Exceptional repeat subscription revenue for replacement carbon filter packs"
-    ],
-    merchantInsights: {
-      sourcingCost: "£33.00",
-      recommendedMSRP: "£120.20",
-      grossProfit: "£87.20 (72.5% margin)",
-      shippingProfile: "Royal Mail Tracked 48 (~£4.20 / 3.6kg)",
-      targetAudience: "Dog & cat owners, allergic partners living with pets, multi-pet households",
-      primaryAdAngle: "'Love your dog but hate the wet winter dog smell and constant fur in the air? This purifier wipes out pet dander and odours in 15 minutes.'"
-    },
-    reviews: [
-      { author: "Gemma Fitzpatrick", location: "Chester, Cheshire", rating: 5, date: "3 days ago", comment: "My partner is allergic to my Golden Retriever. We were at our wits' end until we plugged this in. Within 48 hours, his sneezing stopped and the doggy smell in our lounge completely vanished. Lifesaver!" },
-      { author: "Tom W.", location: "Cardiff, Wales", rating: 5, date: "1 week ago", comment: "Takes care of 2 cats and a spaniel with ease. You can see the fur trapped on the outer mesh rather than settling on furniture." }
-    ]
-  },
-  {
-    id: "whisper-air-compact",
-    name: "WhisperAir Compact Bedside & Desk HEPA Purifier",
-    tagline: "Ultra-quiet 20dB bedside purifier with ambient night light & aromatherapy aroma tray",
-    price: 60.40,
-    originalPrice: 80.30,
-    rating: 4.86,
-    reviewCount: 3410,
-    badge: "Whisper-Quiet 20dB Night Mode",
+    badge: "1.4\" AMOLED • GPS",
     badgeColor: "bg-sky-600 text-white",
-    category: "Bedroom & Desk",
-    image: "images/aeroshield-compact.jpg",
-    gallery: [
-      "images/aeroshield-compact.jpg",
-      "images/purepet-master.jpg",
-      "images/breathemax-tower.jpg"
+    deliveryDays: "3–4 Working Days",
+    specs: [
+      { label: "Colour", value: "Black" },
+      { label: "Display", value: "1.4\" AMOLED" },
+      { label: "Battery Life", value: "Up to 10 days" },
+      { label: "Water Resistance", value: "5 ATM" },
+      { label: "Compatibility", value: "iOS & Android" },
+      { label: "Condition", value: "New" }
     ],
-    inStock: 26,
-    cadRate: "180 m³/h CADR (Covers up to 25m²)",
-    powerUsage: "12W (Under 0.4p per hour)",
-    deliveryDays: "3-4 Working Days",
     features: [
-      "Whisper-Quiet Sleep Technology running at just 20dB — quieter than a gentle whisper",
-      "3-in-1 cylindrical True H13 HEPA filter capturing 99.97% of fine dust, pollen & night-time allergens",
-      "Built-in Essential Oil Sponge Tray: diffuse lavender or eucalyptus for deeper, restorative sleep",
-      "Warm ambient night-light with 2 brightness levels and automatic 2/4/8 hour shut-off timer",
-      "Compact footprint (only 18cm diameter) ideal for bedside tables, children's nurseries & home office desks"
+      "Bright 1.4\" AMOLED display for notifications, heart rate, and sleep tracking",
+      "Built-in GPS with more than 100 sports modes",
+      "Up to 10 days of battery life on a single charge",
+      "Water-resistant to 5 ATM and compatible with iOS & Android"
+    ]
+  },
+  {
+    id: "powerbank-20000",
+    sku: "EK-1004",
+    name: "20,000 mAh Power Bank with 22.5W USB-C Fast Charging",
+    tagline: "20,000 mAh portable charger with 22.5W USB-C PD fast charging, LED indicator, and 3 outputs.",
+    description: "Never run out of battery on the go. This high-capacity 20,000 mAh power bank supports 22.5W fast charging via USB-C PD, complete with an LED charge indicator and three output ports.",
+    price: 21.99,
+    category: "Tech & Gadgets",
+    image: "images/powerbank-20000-1.jpg",
+    gallery: [
+      "images/powerbank-20000-1.jpg",
+      "images/powerbank-20000-2.jpg"
     ],
-    ukSellingPoints: [
-      "Perfect introductory impulse item for bedrooms, nurseries, and university halls",
-      "High conversion as a second or third unit for multi-room UK households",
-      "Extremely low shipping weight and under-£17 sourcing cost"
+    badge: "20,000 mAh • 22.5W",
+    badgeColor: "bg-cyan-600 text-white",
+    deliveryDays: "3–4 Working Days",
+    specs: [
+      { label: "Colour", value: "White" },
+      { label: "Capacity", value: "20,000 mAh" },
+      { label: "Outputs", value: "2x USB-A, 1x USB-C" },
+      { label: "Max. Output", value: "22.5 W (USB-C PD)" },
+      { label: "Condition", value: "New" }
     ],
-    merchantInsights: {
-      sourcingCost: "£16.50",
-      recommendedMSRP: "£60.40",
-      grossProfit: "£43.90 (72.7% margin)",
-      shippingProfile: "Royal Mail Tracked 48 (~£2.85 / 1.6kg)",
-      targetAudience: "Light sleepers, night-time allergy sufferers, parents, WFH desk workers",
-      primaryAdAngle: "'Waking up with dry throat, clogged sinuses, or sneezing in bed? Pop this 20dB silent purifier on your bedside table tonight.'"
-    },
-    reviews: [
-      { author: "Sophie Turner", location: "Bath, Somerset", rating: 5, date: "Yesterday", comment: "I am an exceptionally light sleeper and can't stand noisy fans. This is dead silent on sleep mode. Added lavender oil to the tray and my sleep score on my Apple watch went up 15%." },
-      { author: "Danielle K.", location: "Norwich", rating: 5, date: "5 days ago", comment: "Bought for my 6-year-old's bedroom who suffered from night-time pollen coughs. It cleared his breathing up within days." }
+    features: [
+      "High 20,000 mAh capacity for multiple device recharges",
+      "Supports up to 22.5W fast charging via USB-C PD",
+      "Three output ports (2x USB-A, 1x USB-C) for charging multiple devices",
+      "Built-in LED battery level indicator"
+    ]
+  },
+  {
+    id: "stand-mixer-1200w",
+    sku: "EK-2001",
+    name: "1200W Stand Mixer with 5L Stainless Steel Bowl",
+    tagline: "1200W planetary stand mixer in mint green with 5L stainless steel bowl, 6 speeds, and 4 accessories.",
+    description: "Make home baking effortless with this powerful stand mixer. Its 5-litre stainless steel bowl, 6 speed settings, and planetary mixing action deliver smooth dough, cake batter, and whipped cream.",
+    price: 99.99,
+    category: "Kitchen & Personal Care",
+    image: "images/stand-mixer-1200w-1.jpg",
+    gallery: [
+      "images/stand-mixer-1200w-1.jpg",
+      "images/stand-mixer-1200w-2.jpg"
+    ],
+    badge: "1200W • 5L Bowl",
+    badgeColor: "bg-teal-600 text-white",
+    deliveryDays: "3–4 Working Days",
+    specs: [
+      { label: "Colour", value: "Mint green" },
+      { label: "Power", value: "1200 W" },
+      { label: "Bowl Capacity", value: "5 L stainless steel" },
+      { label: "Speeds", value: "6 + pulse" },
+      { label: "Accessories", value: "Dough hook, whisk, flat beater, splash guard" },
+      { label: "Condition", value: "New" }
+    ],
+    features: [
+      "Powerful 1200W motor with planetary mixing action",
+      "Generous 5-litre stainless steel mixing bowl",
+      "6 speed settings plus pulse control for dough, batter, and cream",
+      "Includes dough hook, whisk, flat beater, and splash guard"
+    ]
+  },
+  {
+    id: "sonic-toothbrush",
+    sku: "EK-7001",
+    name: "Sonic Electric Toothbrush with 4 Brush Heads",
+    tagline: "USB-rechargeable sonic toothbrush with 5 brushing modes, 2-minute smart timer, and 4 brush heads.",
+    description: "Thorough yet gentle cleaning powered by sonic technology. Features 5 brushing modes, a smart 2-minute timer, and a rechargeable battery that lasts up to 30 days.",
+    price: 24.99,
+    category: "Kitchen & Personal Care",
+    image: "images/sonic-toothbrush-1.jpg",
+    gallery: [
+      "images/sonic-toothbrush-1.jpg",
+      "images/sonic-toothbrush-2.jpg"
+    ],
+    badge: "30-Day Battery • 4 Heads",
+    badgeColor: "bg-emerald-600 text-white",
+    deliveryDays: "3–4 Working Days",
+    specs: [
+      { label: "Colour", value: "White" },
+      { label: "Brushing Modes", value: "5" },
+      { label: "Battery Life", value: "Up to 30 days" },
+      { label: "Brush Heads", value: "4 included" },
+      { label: "Charging", value: "USB" },
+      { label: "Condition", value: "New" }
+    ],
+    features: [
+      "Sonic cleaning technology for thorough, gentle daily care",
+      "5 brushing modes and a smart 2-minute brushing timer",
+      "Up to 30 days of battery life with convenient USB charging",
+      "Supplied with 4 replacement brush heads"
+    ]
+  },
+  {
+    id: "electric-city-bike",
+    sku: "EK-5001",
+    name: "28\" Electric City Bike, 7-Speed",
+    tagline: "28-inch step-through electric city bike with 7 speeds, removable 36V 13Ah battery, and lights.",
+    description: "Comfortable step-through electric city bike featuring a rear hub motor and removable 36V battery offering a range of up to 80 km. Complete with integrated lights, rear luggage rack, and mudguards.",
+    price: 849.99,
+    category: "Outdoor & Garden",
+    image: "images/electric-city-bike-1.jpg",
+    gallery: [
+      "images/electric-city-bike-1.jpg",
+      "images/electric-city-bike-2.jpg"
+    ],
+    badge: "Up to 80 km Range",
+    badgeColor: "bg-emerald-700 text-white",
+    deliveryDays: "3–4 Working Days",
+    specs: [
+      { label: "Colour", value: "Mint green" },
+      { label: "Wheel Size", value: "28 inch" },
+      { label: "Range", value: "Up to 80 km" },
+      { label: "Gears", value: "7-speed" },
+      { label: "Battery", value: "36V 13Ah (removable)" },
+      { label: "Condition", value: "New" }
+    ],
+    features: [
+      "Low step-through frame with rear hub motor and 7-speed gearing",
+      "Removable 36V 13Ah battery providing up to 80 km range",
+      "28-inch wheels in a mint green finish",
+      "Comes equipped with lights, rear luggage rack, and mudguards"
+    ]
+  },
+  {
+    id: "robot-lawn-mower",
+    sku: "EK-4002",
+    name: "App-Controlled Robot Lawn Mower (up to 600 m²)",
+    tagline: "Quiet 58 dB robotic lawn mower for lawns up to 600 m² with Wi-Fi app scheduling and auto-docking.",
+    description: "Keep your lawn neatly trimmed without the effort. This robot lawn mower covers areas up to 600 m², returns automatically to its charging station, and can be scheduled via Wi-Fi app.",
+    price: 339.99,
+    category: "Outdoor & Garden",
+    image: "images/robot-lawn-mower-1.jpg",
+    gallery: [
+      "images/robot-lawn-mower-1.jpg",
+      "images/robot-lawn-mower-2.jpg"
+    ],
+    badge: "Up to 600 m² • Wi-Fi App",
+    badgeColor: "bg-green-700 text-white",
+    deliveryDays: "3–4 Working Days",
+    specs: [
+      { label: "Colour", value: "White" },
+      { label: "Lawn Area", value: "Up to 600 m²" },
+      { label: "Cutting Height", value: "20–60 mm" },
+      { label: "Noise Level", value: "58 dB" },
+      { label: "App Control", value: "Yes (Wi-Fi)" },
+      { label: "Condition", value: "New" }
+    ],
+    features: [
+      "Automatically mows lawns up to 600 m² at a quiet 58 dB",
+      "Adjustable 20–60 mm cutting height for tailored grass length",
+      "Returns to its charging station automatically when done",
+      "Wi-Fi app control lets you set mowing schedules from your phone"
+    ]
+  },
+  {
+    id: "pressure-washer-150",
+    sku: "EK-4001",
+    name: "150 Bar Pressure Washer with Patio & Jet Accessories",
+    tagline: "2000W 150 bar pressure washer with 8 m hose, patio cleaner, dirt blaster, and detergent tank.",
+    description: "Clean patios, cars, and garden furniture with ease. This powerful 2000W pressure washer delivers up to 150 bar and comes complete with a patio cleaner, dirt blaster nozzle, and detergent tank.",
+    price: 109.99,
+    category: "Outdoor & Garden",
+    image: "images/pressure-washer-150-1.jpg",
+    gallery: [
+      "images/pressure-washer-150-1.jpg",
+      "images/pressure-washer-150-2.jpg"
+    ],
+    badge: "150 Bar • 2000W",
+    badgeColor: "bg-amber-600 text-white",
+    deliveryDays: "3–4 Working Days",
+    specs: [
+      { label: "Colour", value: "Yellow" },
+      { label: "Pressure", value: "150 bar" },
+      { label: "Power", value: "2000 W" },
+      { label: "Flow Rate", value: "450 L/h" },
+      { label: "Hose Length", value: "8 m" },
+      { label: "Condition", value: "New" }
+    ],
+    features: [
+      "High-pressure 150 bar output powered by a 2000W motor",
+      "Strong 450 L/h flow rate with an 8-metre reach hose",
+      "Includes patio cleaner attachment, dirt blaster nozzle, and detergent tank",
+      "Ideal for driveways, patios, vehicles, and outdoor furniture"
     ]
   }
 ];
