@@ -1,106 +1,216 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
   <channel>
-    <title>AeroPure UK</title>
+    <title>AeroPure</title>
     <link>https://aeropur.shop</link>
-    <description>Top 5 Premium Medical-Grade Air Purifiers for UK Homes</description>
-    
-    <!-- Product 1 -->
+    <description>Home, Tech &amp; Garden essentials with tracked UK delivery</description>
+
+    <!-- Product 1: Double Storage Bed 160 x 200 cm -->
     <item>
-      <g:id>APEX-AIR-450</g:id>
-      <g:title>ApexAir 450 Smart HEPA Air Purifier</g:title>
-      <g:description>High-performance H14 HEPA 99.995% filtration with real-time Laser PM2.5 display and smart WiFi app control. Cleans up to 85m² in 18 minutes.</g:description>
-      <g:link>https://aeropur.shop/#products-section</g:link>
-      <g:image_link>https://aeropur.shop/images/aurapure-pro.jpg</g:image_link>
+      <g:id>EK-3002</g:id>
+      <g:title>Double Storage Bed 160 x 200 cm with Hydraulic Lift</g:title>
+      <g:description>Upholstered 160 x 200 cm grey double bed with hydraulic lift-up slatted base and generous under-bed storage space. Slatted base included; mattress not included.</g:description>
+      <g:link>https://aeropur.shop/?product=storage-bed-160</g:link>
+      <g:image_link>https://aeropur.shop/images/storage-bed-160-1.jpg</g:image_link>
+      <g:additional_image_link>https://aeropur.shop/images/storage-bed-160-2.jpg</g:additional_image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>180.20 GBP</g:price>
+      <g:price>279.99 GBP</g:price>
       <g:condition>new</g:condition>
-      <g:brand>AeroPure UK</g:brand>
+      <g:brand>AeroPure</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>Home &amp; Garden &gt; Household Appliances &gt; Climate Control Appliances &gt; Air Purifiers</g:product_type>
+      <g:product_type>Home &amp; Garden &gt; Furniture &gt; Bedroom Furniture &gt; Beds &amp; Bed Frames</g:product_type>
       <g:shipping>
         <g:country>GB</g:country>
-        <g:service>Royal Mail Tracked 48</g:service>
+        <g:service>Tracked UK Delivery (3-4 Working Days)</g:service>
         <g:price>0.00 GBP</g:price>
       </g:shipping>
     </item>
 
-    <!-- Product 2 -->
+    <!-- Product 2: 3-Seater Velvet Corner Sofa -->
     <item>
-      <g:id>THERMO-FLOW-3IN1</g:id>
-      <g:title>ThermoFlow 3-in-1 HEPA Ceramic Heater, Fan &amp; Air Purifier</g:title>
-      <g:description>The all-in-one year-round solution: 2000W instant ceramic heating, cooling breeze and Medical H13 HEPA air purification with 80° oscillation.</g:description>
-      <g:link>https://aeropur.shop/#products-section</g:link>
-      <g:image_link>https://aeropur.shop/images/thermabreathe-3in1.jpg</g:image_link>
+      <g:id>EK-3001</g:id>
+      <g:title>3-Seater Velvet Corner Sofa, Beige</g:title>
+      <g:description>Comfortable 3-seater corner sofa (250 x 160 x 85 cm) with soft beige velvet upholstery, sturdy wooden frame, reversible left or right chaise longue, and scatter cushions.</g:description>
+      <g:link>https://aeropur.shop/?product=velvet-corner-sofa</g:link>
+      <g:image_link>https://aeropur.shop/images/velvet-corner-sofa-1.jpg</g:image_link>
+      <g:additional_image_link>https://aeropur.shop/images/velvet-corner-sofa-2.jpg</g:additional_image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>220.40 GBP</g:price>
+      <g:price>469.99 GBP</g:price>
       <g:condition>new</g:condition>
-      <g:brand>AeroPure UK</g:brand>
+      <g:brand>AeroPure</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>Home &amp; Garden &gt; Household Appliances &gt; Climate Control Appliances &gt; Air Purifiers</g:product_type>
+      <g:product_type>Home &amp; Garden &gt; Furniture &gt; Living Room Furniture &gt; Sofas</g:product_type>
       <g:shipping>
         <g:country>GB</g:country>
-        <g:service>DPD Express Parcel</g:service>
+        <g:service>Tracked UK Delivery (3-4 Working Days)</g:service>
         <g:price>0.00 GBP</g:price>
       </g:shipping>
     </item>
 
-    <!-- Product 3 -->
+    <!-- Product 3: ANC Wireless Earbuds -->
     <item>
-      <g:id>STERIL-TOWER-360</g:id>
-      <g:title>SterilTower 360 UV-C Sanitising Air Purifier</g:title>
-      <g:description>Medical H13 HEPA with germicidal UV-C light destroying airborne viruses and bacteria. Features 360-degree cylindrical air intake and auto smart sensor.</g:description>
-      <g:link>https://aeropur.shop/#products-section</g:link>
-      <g:image_link>https://aeropur.shop/images/breathemax-tower.jpg</g:image_link>
+      <g:id>EK-1001</g:id>
+      <g:title>Wireless Earbuds with Active Noise Cancellation (ANC)</g:title>
+      <g:description>Black wireless earbuds with Active Noise Cancellation (ANC), transparency mode, Bluetooth 5.3, IPX4 splash resistance, touch controls, and up to 30 hours playtime with USB-C case.</g:description>
+      <g:link>https://aeropur.shop/?product=anc-wireless-earbuds</g:link>
+      <g:image_link>https://aeropur.shop/images/anc-wireless-earbuds-1.jpg</g:image_link>
+      <g:additional_image_link>https://aeropur.shop/images/anc-wireless-earbuds-2.jpg</g:additional_image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>140.30 GBP</g:price>
+      <g:price>34.99 GBP</g:price>
       <g:condition>new</g:condition>
-      <g:brand>AeroPure UK</g:brand>
+      <g:brand>AeroPure</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>Home &amp; Garden &gt; Household Appliances &gt; Climate Control Appliances &gt; Air Purifiers</g:product_type>
+      <g:product_type>Electronics &gt; Audio &gt; Headphones &amp; Headsets</g:product_type>
       <g:shipping>
         <g:country>GB</g:country>
-        <g:service>Royal Mail Tracked 48</g:service>
+        <g:service>Tracked UK Delivery (3-4 Working Days)</g:service>
+        <g:price>4.99 GBP</g:price>
+      </g:shipping>
+    </item>
+
+    <!-- Product 4: GPS Smartwatch -->
+    <item>
+      <g:id>EK-1002</g:id>
+      <g:title>GPS Smartwatch with Heart Rate Monitor</g:title>
+      <g:description>Black 1.4&quot; AMOLED smartwatch with GPS, heart rate and sleep tracking, 100+ sports modes, 5 ATM water resistance, iOS and Android compatibility, and up to 10 days battery life.</g:description>
+      <g:link>https://aeropur.shop/?product=gps-smartwatch</g:link>
+      <g:image_link>https://aeropur.shop/images/gps-smartwatch-1.jpg</g:image_link>
+      <g:additional_image_link>https://aeropur.shop/images/gps-smartwatch-2.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>46.99 GBP</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>AeroPure</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>Electronics &gt; Wearable Technology &gt; Smartwatches</g:product_type>
+      <g:shipping>
+        <g:country>GB</g:country>
+        <g:service>Tracked UK Delivery (3-4 Working Days)</g:service>
         <g:price>0.00 GBP</g:price>
       </g:shipping>
     </item>
 
-    <!-- Product 4 -->
+    <!-- Product 5: 20,000 mAh Power Bank -->
     <item>
-      <g:id>PET-SHIELD-DUAL</g:id>
-      <g:title>PetShield Dual-Filter Pet &amp; Odour Air Purifier</g:title>
-      <g:description>Engineered specifically for pet dander, shedding fur, wet dog odours and cat litter dust with 450g high-grade activated carbon pellets and pet-safe child lock.</g:description>
-      <g:link>https://aeropur.shop/#products-section</g:link>
-      <g:image_link>https://aeropur.shop/images/purepet-master.jpg</g:image_link>
+      <g:id>EK-1004</g:id>
+      <g:title>20,000 mAh Power Bank with 22.5W USB-C Fast Charging</g:title>
+      <g:description>White 20,000 mAh portable power bank supporting 22.5W USB-C PD fast charging, equipped with 2x USB-A and 1x USB-C outputs plus an LED battery indicator.</g:description>
+      <g:link>https://aeropur.shop/?product=powerbank-20000</g:link>
+      <g:image_link>https://aeropur.shop/images/powerbank-20000-1.jpg</g:image_link>
+      <g:additional_image_link>https://aeropur.shop/images/powerbank-20000-2.jpg</g:additional_image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>120.20 GBP</g:price>
+      <g:price>21.99 GBP</g:price>
       <g:condition>new</g:condition>
-      <g:brand>AeroPure UK</g:brand>
+      <g:brand>AeroPure</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>Home &amp; Garden &gt; Household Appliances &gt; Climate Control Appliances &gt; Air Purifiers</g:product_type>
+      <g:product_type>Electronics &gt; Electronics Accessories &gt; Power &gt; Power Banks</g:product_type>
       <g:shipping>
         <g:country>GB</g:country>
-        <g:service>Royal Mail Tracked 48</g:service>
+        <g:service>Tracked UK Delivery (3-4 Working Days)</g:service>
+        <g:price>4.99 GBP</g:price>
+      </g:shipping>
+    </item>
+
+    <!-- Product 6: 1200W Stand Mixer -->
+    <item>
+      <g:id>EK-2001</g:id>
+      <g:title>1200W Stand Mixer with 5L Stainless Steel Bowl</g:title>
+      <g:description>Mint green 1200W stand mixer featuring a 5L stainless steel bowl, 6 speeds plus pulse, planetary mixing action, dough hook, whisk, flat beater, and splash guard.</g:description>
+      <g:link>https://aeropur.shop/?product=stand-mixer-1200w</g:link>
+      <g:image_link>https://aeropur.shop/images/stand-mixer-1200w-1.jpg</g:image_link>
+      <g:additional_image_link>https://aeropur.shop/images/stand-mixer-1200w-2.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>99.99 GBP</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>AeroPure</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>Home &amp; Garden &gt; Kitchen &amp; Dining &gt; Kitchen Appliances &gt; Mixers</g:product_type>
+      <g:shipping>
+        <g:country>GB</g:country>
+        <g:service>Tracked UK Delivery (3-4 Working Days)</g:service>
         <g:price>0.00 GBP</g:price>
       </g:shipping>
     </item>
 
-    <!-- Product 5 -->
+    <!-- Product 7: Sonic Electric Toothbrush -->
     <item>
-      <g:id>WHISPER-AIR-COMPACT</g:id>
-      <g:title>WhisperAir Compact Bedside &amp; Desk HEPA Purifier</g:title>
-      <g:description>Ultra-quiet 20dB bedside air purifier with warm ambient night light and aromatherapy aroma sponge tray for bedrooms, nurseries and desks.</g:description>
-      <g:link>https://aeropur.shop/#products-section</g:link>
-      <g:image_link>https://aeropur.shop/images/aeroshield-compact.jpg</g:image_link>
+      <g:id>EK-7001</g:id>
+      <g:title>Sonic Electric Toothbrush with 4 Brush Heads</g:title>
+      <g:description>White USB-rechargeable sonic electric toothbrush with 5 brushing modes, smart 2-minute timer, up to 30 days battery life, and 4 brush heads.</g:description>
+      <g:link>https://aeropur.shop/?product=sonic-toothbrush</g:link>
+      <g:image_link>https://aeropur.shop/images/sonic-toothbrush-1.jpg</g:image_link>
+      <g:additional_image_link>https://aeropur.shop/images/sonic-toothbrush-2.jpg</g:additional_image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>60.40 GBP</g:price>
+      <g:price>24.99 GBP</g:price>
       <g:condition>new</g:condition>
-      <g:brand>AeroPure UK</g:brand>
+      <g:brand>AeroPure</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>Home &amp; Garden &gt; Household Appliances &gt; Climate Control Appliances &gt; Air Purifiers</g:product_type>
+      <g:product_type>Health &amp; Beauty &gt; Personal Care &gt; Oral Care &gt; Powered Toothbrushes</g:product_type>
       <g:shipping>
         <g:country>GB</g:country>
-        <g:service>Royal Mail Tracked 48</g:service>
+        <g:service>Tracked UK Delivery (3-4 Working Days)</g:service>
+        <g:price>4.99 GBP</g:price>
+      </g:shipping>
+    </item>
+
+    <!-- Product 8: 28" Electric City Bike -->
+    <item>
+      <g:id>EK-5001</g:id>
+      <g:title>28&quot; Electric City Bike, 7-Speed</g:title>
+      <g:description>Mint green 28-inch step-through electric city bike with rear hub motor, 7 speeds, removable 36V 13Ah battery (up to 80 km range), lights, rear rack, and mudguards.</g:description>
+      <g:link>https://aeropur.shop/?product=electric-city-bike</g:link>
+      <g:image_link>https://aeropur.shop/images/electric-city-bike-1.jpg</g:image_link>
+      <g:additional_image_link>https://aeropur.shop/images/electric-city-bike-2.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>849.99 GBP</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>AeroPure</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>Sporting Goods &gt; Outdoor Recreation &gt; Cycling &gt; Electric Bicycles</g:product_type>
+      <g:shipping>
+        <g:country>GB</g:country>
+        <g:service>Tracked UK Delivery (3-4 Working Days)</g:service>
+        <g:price>0.00 GBP</g:price>
+      </g:shipping>
+    </item>
+
+    <!-- Product 9: Robot Lawn Mower -->
+    <item>
+      <g:id>EK-4002</g:id>
+      <g:title>App-Controlled Robot Lawn Mower (up to 600 m&#178;)</g:title>
+      <g:description>White robotic lawn mower for lawns up to 600 m&#178; with 20-60 mm cutting height, quiet 58 dB operation, Wi-Fi app scheduling, and automatic return to charging station.</g:description>
+      <g:link>https://aeropur.shop/?product=robot-lawn-mower</g:link>
+      <g:image_link>https://aeropur.shop/images/robot-lawn-mower-1.jpg</g:image_link>
+      <g:additional_image_link>https://aeropur.shop/images/robot-lawn-mower-2.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>339.99 GBP</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>AeroPure</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>Home &amp; Garden &gt; Lawn &amp; Garden &gt; Outdoor Power Equipment &gt; Lawn Mowers</g:product_type>
+      <g:shipping>
+        <g:country>GB</g:country>
+        <g:service>Tracked UK Delivery (3-4 Working Days)</g:service>
+        <g:price>0.00 GBP</g:price>
+      </g:shipping>
+    </item>
+
+    <!-- Product 10: 150 Bar Pressure Washer -->
+    <item>
+      <g:id>EK-4001</g:id>
+      <g:title>150 Bar Pressure Washer with Patio &amp; Jet Accessories</g:title>
+      <g:description>Yellow 2000W 150 bar pressure washer with 450 L/h flow rate, 8 m hose, patio cleaner, dirt blaster nozzle, and detergent tank for patios, cars, and garden furniture.</g:description>
+      <g:link>https://aeropur.shop/?product=pressure-washer-150</g:link>
+      <g:image_link>https://aeropur.shop/images/pressure-washer-150-1.jpg</g:image_link>
+      <g:additional_image_link>https://aeropur.shop/images/pressure-washer-150-2.jpg</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>109.99 GBP</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>AeroPure</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>Home &amp; Garden &gt; Lawn &amp; Garden &gt; Outdoor Power Equipment &gt; Pressure Washers</g:product_type>
+      <g:shipping>
+        <g:country>GB</g:country>
+        <g:service>Tracked UK Delivery (3-4 Working Days)</g:service>
         <g:price>0.00 GBP</g:price>
       </g:shipping>
     </item>

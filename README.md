@@ -1,18 +1,14 @@
-# AeroPure UK™ — Top 5 Premium Medical-Grade Air Purifiers Storefront
+# AeroPure UK — Home, Tech, Kitchen & Garden Storefront
 
-A high-converting e-commerce web application featuring Britain's top 5 premium medical-grade air purifiers with dynamic 3–4 working days UK delivery calculations, CADR room sizing tool, and verified clinical reviews.
+A responsive UK e-commerce storefront (`https://aeropur.shop`) featuring 10 curated products across Home & Furniture, Tech & Gadgets, Kitchen & Personal Care, and Outdoor & Garden, priced in GBP (£) with dynamic 3–4 working day UK delivery estimates.
 
-## 🚀 Live Demo
-Hosted on **GitHub Pages**.
-
-## 🛠️ Tech Stack
-- HTML5 & Modern CSS3
-- Tailwind CSS
+## Tech Stack
+- HTML5 & Modern CSS3 (scroll-reveal transitions, hero ambient motion, image hover crossfade, reduced-motion support)
+- Tailwind CSS (CDN)
 - Vanilla JavaScript (ES6+)
-- Responsive, mobile-first design with accessible UI components
 
-## 📦 Features
-- **Dynamic 3–4 Days Delivery**: Calculates real delivery arrival windows based on UK business days.
-- **CADR Room Size Calculator**: Estimates clean air replacements per hour (ACH) and daily electricity costs.
-- **Whole-Home Bundle Saver**: 1-click bundle discount engine.
-- **UK Checkout Flow**: Postcode validation, Royal Mail tracking generator, and payment simulator.
+## Features
+- **10-Product Catalogue (`data/products.js`)**: Multi-image galleries, dual-photo hover crossfades, and structured specifications.
+- **Category Filtering & Deep Links**: Filter by All, Home & Furniture, Tech & Gadgets, Kitchen & Personal Care, and Outdoor & Garden, plus `?product=<id>` deep linking for product landing views.
+- **Shopping Basket & UK Delivery Calculator**: Free UK delivery over £45 (£4.99 under £45), promo codes (`WELCOME15`, `CLEANAIR15`, `PUREUK`), and working-day delivery window calculation.
+- **Google Merchant Center Feeds**: Up-to-date `products.xml` and `products.tsv` matching storefront prices and shipping rules.
